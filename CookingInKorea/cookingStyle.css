@@ -1,0 +1,95 @@
+body {
+	background-image: url('images/skilletBG_sb.png');
+	background-attachment : fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family : Helvetica;
+	}
+
+h2, h3 { margin-left : 5%; }
+
+p {
+	line-height : 200%;
+	margin : 2% 5% 2%;
+	text-indent : 2em;
+	}
+	
+hr { background : #ABABAB; }
+
+table {	
+	margin : 0 10% 0; 
+	border : 1px solid gray;
+	}
+
+table th {padding : 2px 5px 2px;}
+
+table td {
+	padding : 2px 10px 2px;
+	border : 1px solid gray;
+	}
+
+#title {
+    background : #ABABAB;
+	text-align : center;
+	}
+
+#wrapper {
+	background : #BCBCBC;
+	width : 80%;
+	margin-left : auto;
+	margin-right : auto;
+	min-width : 600px;
+	}
+	
+nav {
+	text-align : left;
+    margin-left : auto;
+	float : left;
+	width : 150px;	
+	}
+	
+nav li{ margin : 12px 0;}
+
+nav a { font-size : 18px;}
+
+nav ul{list-style : none;}
+
+nav a:link{ color : #fff;}
+
+nav a:visited { color : #fff;}
+
+#content { 
+	padding : 1% 0 7% 0;
+	background : #E6E6E6; 
+	margin-left : 150px;
+	}
+	
+#content img { 
+	margin : 10px 0 0; 
+	box-shadow : 3px 3px 2px #888;
+	-moz-box-shadow : 3px 3px 2px #888;
+	-webkit-box-shadow : 3px 3px 2px #888;
+	}
+
+.noshadow {
+	box-shadow : none;
+	-moz-box-shadow : none;
+	-webkit-box-shadow : none;
+	}
+
+#centered { 
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	}
+	
+.floatleft { 
+	float : left;
+	margin-right : 2%;
+	} 
+
+#footer { 
+	background : #ABABAB; 
+	text-align : center;
+    clear : both;
+	}
